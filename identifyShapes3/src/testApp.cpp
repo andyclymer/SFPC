@@ -137,7 +137,7 @@ void testApp::draw(){
     if (prevShape > shapes.size()-1) {
         prevShape = 0;
     }
-    shapes[prevShape].objectImage.draw(0, sourceImage.height, sourceImage.width, sourceImage.height);
+    shapes[prevShape].outlineImage.draw(0, sourceImage.height, sourceImage.width, sourceImage.height);
     
     resultImage.draw(sourceImage.width, sourceImage.height, resultImage.width, resultImage.height);
 
